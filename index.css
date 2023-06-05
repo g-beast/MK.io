@@ -4,7 +4,7 @@
   box-sizing: border-box;
   }
   
-  header {
+header {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -17,13 +17,13 @@
   left: 0;
   width:100%;
   z-index: 1;
-  }
+}
   
-  .logo img {
+.logo img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  }
+}
   
   nav ul {
   display: flex;
@@ -40,12 +40,12 @@
   text-decoration: none;
   }
   
-/*   .burger {
+  /* .burger {
   display: none;
   cursor: pointer;
   } */
-/*   
-  .burger .line {
+  
+  /* .burger .line {
   width: 25px;
   height: 3px;
   background-color: #fff;
@@ -57,7 +57,7 @@
     background-size: cover;
     background-position: center;
     height: 300px;
-    width: auto;
+    width: 100%;
     padding-top: 100px;
   }
 
@@ -740,7 +740,7 @@
   }
   
   .container-footer p{  
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     color: #fff;
     margin-bottom: 10px;
   }
@@ -758,17 +758,12 @@
     .scroll-snap-card .slide video {
       width: 95%;
     }
-/*     .logo img {
+    .logo img {
       width: 80px;
       height: 80px;
-      } */
+      }
   }
   @media screen and (max-width: 775px) {
-    #second{
-      height: auto;
-    }
-  }
-@media screen and (max-width: 775px) {
     #second{
       height: auto;
     }
@@ -778,17 +773,18 @@
       width: 80%;
     }
     nav li {
-      margin: 0 5px;
+      margin: 0 3px;
       font-size: 12px;
       }
   }
   @media screen and (max-width: 300px) {
     .card {
-      width: 260px;
+      width: 200px;
     }
     .terminal{
       /* float: left; */
       margin: auto;
       width: 200px;
     }
+    
   }
