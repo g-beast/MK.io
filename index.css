@@ -767,6 +767,12 @@ header {
     #second{
       height: auto;
     }
+    .terminal{
+      float: left;
+      margin: auto;
+      width: 80%;
+      min-width: 0;
+    }
   }
   @media screen and (max-width: 354px) {
     .card {
@@ -777,14 +783,8 @@ header {
       font-size: 12px;
       }
   }
-  @media screen and (max-width: 300px) {
+  @media screen and (max-width: 310px) {
     .card {
       width: 200px;
     }
-    .terminal{
-      /* float: left; */
-      margin: auto;
-      width: 200px;
-    }
-    
   }
