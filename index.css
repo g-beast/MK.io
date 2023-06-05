@@ -768,3 +768,18 @@
       height: auto;
     }
   }
+@media screen and (max-width: 775px) {
+    #second{
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 354px) {
+    .card {
+      width: 280px;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    .card {
+      width: 260px;
+    }
+  }
