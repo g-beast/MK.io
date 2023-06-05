@@ -768,8 +768,8 @@ header {
       height: auto;
     }
     .terminal{
-      float: left;
-      margin: auto;
+      float: right;
+      margin: 30px;
       width: 80%;
       min-width: 0;
     }
